@@ -1,7 +1,3 @@
-exports.handler = async (event) => {
-    const response = {
-        statusCode: 200,
-        body: JSON.stringify('Hello ' + event.name + "!")
-    };
-    return response;
-};
+function changeGreeting() {
+    document.getElementById('greeting').textContent = 'Hello, JavaScript!';
+}

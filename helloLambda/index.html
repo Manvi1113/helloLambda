@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Reverse and Capitalise with AWS Lambda</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
 </head>
 <body>
-  <form id="form" onsubmit="callLambdaFunction(); return false;">
-    <input type="text" id="inputText" placeholder="Enter some text here">
-    <button type="submit">Submit</button>
-    <input type="text" readonly id="outputText" placeholder="Output will appear here">
-  </form>
-  <script src="apigClient.js"></script>
-  <script>
-    function callLambdaFunction() {
-      // Add the code to call AWS Lambda via API Gateway
-    }
-  </script>
+    <h1 id="greeting">Hello, World!</h1>
+    <button onclick="changeGreeting()">Click Me</button>
+
+    <script src="script.js"></script>
 </body>
 </html>
